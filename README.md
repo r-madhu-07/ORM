@@ -24,7 +24,7 @@ Execute Django admin and create details for 10 books
 
 ## PROGRAM
 
-'''
+```
 from django.db import models
 
 class car(models.Model):
@@ -41,7 +41,7 @@ from . models import car
 admin.site.register(car)
 class carAdmin(admin.ModelAdmin):
     list_display=('id','barnd','model','year','price')    
-
+```
 ## OUTPUT
 ![alt text](<Screenshot 2025-09-13 110521.png>)
 
