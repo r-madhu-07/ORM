@@ -43,7 +43,8 @@ class carAdmin(admin.ModelAdmin):
     list_display=('id','barnd','model','year','price')    
 ```
 ## OUTPUT
-![alt text](<Screenshot 2025-09-13 110521.png>)
+<img width="1920" height="1200" alt="Screenshot 2025-09-13 110521" src="https://github.com/user-attachments/assets/516fbb3e-3b09-4f5c-abeb-8b104b1c0cb9" />
+
 
 
 ## RESULT
